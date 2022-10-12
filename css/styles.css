@@ -1,0 +1,812 @@
+:root {
+    --grey: #3a3a3a;
+    --white: #ffffff;
+    --orange: #c65614;
+    --light-grey: #707070;
+    --dark-grey: #404040;
+    --sea-green: #014b59;
+    --yellow: #d9b23d;
+    --off-white: #f2f2f2;
+    --dull-white: #cbc9c9;
+    --dull-grey: #9b9999;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'cooper_hewittbold';
+    src: url('cooperhewitt-bold-webfont.woff2') format('woff2'),
+         url('cooperhewitt-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cooper_hewittbold_italic';
+    src: url('cooperhewitt-bolditalic-webfont.woff2') format('woff2'),
+         url('cooperhewitt-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cooper_hewittbook';
+    src: url('cooperhewitt-book-webfont.woff2') format('woff2'),
+         url('cooperhewitt-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cooper_hewittbook_italic';
+    src: url('cooperhewitt-bookitalic-webfont.woff2') format('woff2'),
+         url('cooperhewitt-bookitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cooper_hewittheavy';
+    src: url('cooperhewitt-heavy-webfont.woff2') format('woff2'),
+         url('cooperhewitt-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cooper_hewittheavy_italic';
+    src: url('cooperhewitt-heavyitalic-webfont.woff2') format('woff2'),
+         url('cooperhewitt-heavyitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cooper_hewittlight';
+    src: url('cooperhewitt-light-webfont.woff2') format('woff2'),
+         url('cooperhewitt-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cooper_hewittlight_italic';
+    src: url('cooperhewitt-lightitalic-webfont.woff2') format('woff2'),
+         url('cooperhewitt-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cooper_hewittmedium';
+    src: url('cooperhewitt-medium-webfont.woff2') format('woff2'),
+         url('cooperhewitt-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cooper_hewittmedium_italic';
+    src: url('cooperhewitt-mediumitalic-webfont.woff2') format('woff2'),
+         url('cooperhewitt-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cooper_hewittsemibold';
+    src: url('cooperhewitt-semibold-webfont.woff2') format('woff2'),
+         url('cooperhewitt-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cooper_hewittsemibold_italic';
+    src: url('cooperhewitt-semibolditalic-webfont.woff2') format('woff2'),
+         url('cooperhewitt-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cooper_hewittthin';
+    src: url('cooperhewitt-thin-webfont.woff2') format('woff2'),
+         url('cooperhewitt-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cooper_hewittthin_italic';
+    src: url('cooperhewitt-thinitalic-webfont.woff2') format('woff2'),
+         url('cooperhewitt-thinitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+li {
+    list-style: none;  
+}
+
+a {
+    text-decoration: none;
+}
+
+.first-tier svg {
+    width: 1.5rem;
+    visibility: hidden;
+}
+
+.toggle-btn svg{
+    width: 2rem;
+}
+
+header {
+    background-color: var(--grey);
+}
+
+footer img{
+    width: 2rem;
+}
+
+.flex-container:not(.flex-container.travel){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+
+
+li .first-link {
+    display: flex;
+    flex-direction: row-reverse;
+    color: var(--off-white);
+    font-family: 'cooper_hewittbold';
+    font-size: 24px;
+    
+}
+
+.main-menu {
+    text-align: right;
+    padding: .5rem;
+}
+
+header nav {
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background-color: var(--grey);
+}
+
+.show-nav {
+    max-height: unset;
+}
+
+.first-tier{
+    margin-bottom: 1rem;
+}
+
+.second-tier a{
+    text-decoration: underline;
+    color: var(--dull-white); 
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 18px;
+}
+
+.second-tier li{
+    padding: 1px;
+}
+
+h1 a{
+    color: var(--off-white);
+    padding: 1rem;
+    font-family: 'cooper_hewittheavy';
+    font-size: 36px;
+}
+
+h2 {
+    font-family: 'cooper_hewittheavy';
+    font-size: 90px;
+    color: var(--dark-grey);
+    line-height: 5rem;
+    padding: 1rem 0;
+}
+
+.inner-container {
+    display: block;
+}
+
+.inner-container.food .inner-container {
+    position: relative;
+}
+
+
+button {
+    border-radius: 1.8rem;
+    font-size: 16px;
+    font-family: 'Merriweather Sans', sans-serif;
+    width: 11rem;
+    padding: .5rem;
+    color: var(--off-white);
+    background-color: var(--orange);
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.travel-heading {
+    color: var(--sea-green);
+}
+
+
+
+.food-heading span,
+.travel-heading span{
+    color: var(--light-grey);
+    display: block;
+    padding: 0 3rem;
+}
+
+h3 {
+    font-size: 42px;
+    font-family: 'cooper_hewittheavy';
+    color: var(--yellow);
+    line-height: 2.5rem;
+    padding-left: 1rem;
+    position: relative;
+    top: -1.3rem;
+}
+
+.food-stuff a {
+    color: #3a3a3a;
+    text-decoration: underline;
+    text-underline-offset: 1px;
+}
+
+.food-stuff p {
+    padding: .5rem 0;
+    line-height: 1.3rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px;
+}
+
+
+
+.food-stuff svg {
+    fill: var(--orange);
+    width: 2.3rem;
+    position: absolute;
+    left: .4rem;
+}
+
+.eating-stuff div{
+    max-width: 250px;
+    margin-top: 1rem;
+}
+
+.food-stuff {
+    padding: 1rem;
+}
+
+.food-stuff p {
+    padding-left: 1rem;
+    margin-top: .5rem;
+}
+
+.food-stuff p:last-of-type {
+    margin-bottom: 2rem;
+}
+
+.food-stuff p:first-of-type {
+    margin-top: -1rem;
+}
+
+
+
+.food-stuff .image-div {
+    padding: 1rem;
+    background-color:#f1f1f1;
+}
+
+.video-blog {
+    margin: 2rem .7rem;
+    max-width: 18.8rem;
+} 
+
+.video-blog , footer {
+    background-color: var(--dark-grey);
+}
+
+.video-blog h2 ,
+.video-blog p {
+    color: var(--white);
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.video-blog p {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding-top: 1rem;
+}
+
+.video-blog h2 span {
+    display: block;
+}
+
+.video-blog button {
+    margin-left: 28%;
+}
+
+
+footer a{
+    color: var(--dull-white);
+    font-size: 18px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.type a{
+    font-weight: 550;
+    font-size: 1.1rem;
+    margin-bottom: .1rem;
+    color: var(--white);
+}
+
+footer svg {
+    fill: var(--off-white);
+    width: 2rem;
+    padding: 5px;
+}
+
+.media-links {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.additional-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.additional-links ul {
+    padding: 0 4%;
+}
+
+ .inner-container.travel{
+    background-color: #f1f1f1;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+
+.inner-container.travel button{
+    margin-left: 5rem;
+}
+
+
+
+.inner-container.food p {
+    font-family: 'Merriweather Sans', sans-serif;;
+    max-width: 252px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 1rem 0;
+}
+
+.inner-container.food p span{
+    display: block;
+}
+
+.flex-container.travel {
+    margin: 2rem 0;
+    padding-left: 0;
+    position: relative;
+}
+
+.flex-container.travel h2 {
+    padding-left: 0;
+    padding-top: 2rem;
+    margin-left: -2rem;
+}
+
+
+
+ .breakfast-image {
+    height: 174px;
+    width: 261px;
+    position: relative;
+    right: -1.5rem;
+}
+
+.breakfast-table {
+    height: 143px;
+    width: 214px;
+    position: relative;
+   left: -0.4rem;
+   top: -2rem;
+}
+
+.inner-container.travel .inner-container{
+    width: 215px;
+   height: 322px;
+   margin-left: 17%;
+   padding-bottom: 21rem;
+
+}
+
+.image-div {
+    min-height: 402px;
+    min-width: 267px;
+}
+
+
+.image-camera {
+    min-height: 183px;
+    min-width: 275px;
+}
+
+
+
+li .first-link:hover,
+li .first-link:active,
+li .first-link:focus,
+li .first-link:focus-within {
+    color: var(--orange);
+}
+
+.second-tier li:hover,
+.second-tier li:active, 
+.second-tier li:focus,
+.second-tier li:focus-within {
+    background-color: var(--light-grey);
+    border-radius: 5px;
+}
+
+button:hover,
+button:active,
+button:focus,
+button:focus-within {
+    background-color: var(--dark-grey);
+}
+
+.video-blog button:hover,
+.video-blog button:active,
+.video-blog button:focus,
+.video-blog button:focus-within {
+    background-color: var(--off-white);
+    color: var(--dark-grey);
+}
+
+
+@media screen and (min-width: 800px){
+    .first-tier svg {
+        visibility: visible;
+    }
+
+    .wide-flex {
+        display: flex;
+    }
+
+    .toggle-btn {
+        display: none;
+    }
+
+    header nav {
+        position: static;
+        overflow: visible;
+    }
+
+    .main-menu {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        text-align: center;
+    }
+
+
+    li .first-link {
+        flex-direction: row;
+        padding: 0 1.5rem;
+    }
+
+    .main-menu li {
+        position: relative;
+    }
+
+    .second-tier {
+        width: 100%;
+        background-color: var(--grey);
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .main-menu li:hover > .second-tier {
+        visibility: visible;
+    }
+
+    .second-tier li {
+        margin-left: -1rem;
+        margin-right: 1rem;
+        padding: .2rem 0;
+        white-space: nowrap;
+    }
+
+    .media-links {
+        align-items: flex-start;
+    }
+
+    .additional-links {
+        width: calc(86%);
+    }
+
+    .additional-links ul {
+        width: calc(100%/4);
+    }
+
+    button {
+        background-color: var(--grey);
+    }
+
+    .inner-container.travel button{
+        margin-top: 3rem;
+        margin-left: 10rem;
+    }
+
+    .video-blog button {
+        background-color: var(--off-white);
+        color: #3a3a3a;
+    }
+
+    .video-blog {
+        max-width: unset;
+        width: 600px;
+        height: 425px;
+        display: flex;
+    }
+
+    .inner-container.food {
+        display: flex;
+        margin-top: 2rem;
+        margin: auto;
+    }
+
+    .inner-container.food p span{
+        display: unset;
+    }
+
+    .inner-container.food p {
+        max-width: 20rem;
+    }
+
+    
+    .inner-container.travel {
+        display: flex;
+        height: 23rem;
+    }
+
+    .food-stuff {
+        margin-top: 8rem;
+    }
+
+    .eating-stuff {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .food-stuff .image-div {
+      width: 380px;
+
+    }
+ 
+    .eating-stuff div {
+        max-width: unset;
+        width: calc(100% / 2); 
+    }
+
+    .food-stuff p {
+        max-width: 358px;
+    }
+
+    .food-stuff p:last-of-type {
+        margin-bottom: 0;
+    }
+
+   .flex-container.travel h2 {
+    margin-left: 15%;
+    padding-top: 4rem;
+    }
+
+    h2:not(.food-heading) {
+        margin-left: 10%;
+        margin-bottom: -2rem;
+    }
+
+    .video-blog p {
+        padding: 3rem 1rem 1rem 4rem;
+    }
+
+    .food-stuff svg {
+        fill: var(--orange);
+        width: 3rem;
+        position: relative;
+        left: 8.5%;
+        top: 3rem;
+    }
+
+
+
+ .breakfast-image {
+    height: 258px;
+    width: 388px;
+    position: relative;
+    right: -3rem;
+    top: 1rem
+}
+
+.breakfast-table {
+    height: 249px;
+    width: 374px;
+}
+
+.inner-container.travel .inner-container{
+    width: 279px;
+   height: 418px;
+   position: absolute;
+   left: 20rem;
+   top: 2.5rem;
+}
+
+.image-div img {
+    min-height: 536px;
+    min-width: 355px;
+    padding-bottom: 1rem;
+}
+
+
+.image-camera {
+    height: 236px;
+    width: 355px;
+    position: relative;
+    left: 10rem;
+    top: 7.5rem
+}
+
+
+
+}
+
+
+@media screen and (min-width: 1200px){
+
+    .eating-stuff {
+        display: flex;
+    }
+
+    .food-stuff .image-div {
+      width: 302px;
+    }
+ 
+    .eating-stuff div {
+        max-width: unset;
+        width: calc(100% / 4); 
+    }
+
+    .food-stuff p {
+        max-width: 250px;
+    }
+
+    h2 {
+        font-size: 125px;
+        line-height: 115px;
+    }
+
+    .travel-heading span,
+    .video-blog span {
+        font-size: 95px;
+    }
+
+    .video-blog {
+        width: 1050px;
+        height: 450px;
+        padding-left: 400px;
+    }
+
+   
+    
+    .travel-heading span{
+        padding: 0 16rem;
+    }
+
+    .inner-container.travel button{
+        margin-left: 28rem;
+    }
+
+
+    .food-stuff svg {
+        fill: var(--orange);
+        left: 9.5%;
+        top:3rem;
+    }
+
+    .inner-container.food .inner-container {
+        margin-left: 4rem;
+    }
+    
+    .inner-container.food{
+        margin-top: 3rem;
+    }
+
+    .inner-container.food p {
+        max-width: 21rem;
+    }
+
+
+    .breakfast-image {
+        height: 325px;
+        width: 490px;
+    }
+    
+    .breakfast-table {
+        height: 323px;
+        width: 485px;
+    }
+    
+    .inner-container.travel .inner-container{
+        width: 422px;
+        position: absolute;
+        top: -6rem;
+        left: 32rem;
+    }
+    
+    .image-div img {
+        min-height: 402px;
+        min-width: 269px;
+    }
+    
+    
+    .image-camera {
+        height: 271px;
+        width: 407px;
+    }
+
+    .flex-container.travel {
+        margin-top: 12rem;
+    }
+
+    .flex-container.travel .inner-container {
+        height: 27rem;
+    }
+
+}
