@@ -1,0 +1,145 @@
+body{
+	width: 960px;
+	margin: auto;
+	font-family: 'Cantarell', sans-serif;
+	background-color: #EBE4E4;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+li{
+	list-style: none;
+}
+ 
+main{
+	background-image: url("../img/what-the-truck.jpg");
+	height: 1380px;
+}
+
+nav div{
+	display: flex;
+	background-color: #ffe4e1;
+	opacity: 0.8;
+}
+
+nav p:hover{
+	text-decoration: underline;
+}
+
+nav img{
+	margin: 5px 5px 10px 55px;
+}
+
+nav p{
+	padding-left: 30px;
+	padding-top: 13px;
+	font-size: 23px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.home{
+	margin-left: 400px;
+}
+
+h1{
+	font-size: 65px;
+	text-align: center;
+	color: #E34162;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.ContactUs{
+	background-color: #ffe4e1;
+	opacity: 0.8;
+	width: 550px;
+	border: 1px solid black;
+	margin: 90px 204px 120px 204px;
+}
+
+.ContactUs p{
+	width: 440px;
+	padding: 0px 55px 0px 65px;
+	line-height: 20px;
+}
+
+.line-1 {
+	margin: 60px 55px 60px 55px;
+  	height: 1px;
+  	background: black;
+  	width: 440px;
+}
+
+label{
+	display: block;
+	padding-left: 30px;
+	padding-bottom: 5px;
+}
+
+input{
+	margin-left: 30px;
+	width: 478px;
+	height: 30px;
+	margin-bottom: 15px;
+	border: 1px solid grey;
+}
+
+.message textarea{
+	height: 70px;
+	margin-left: 30px;
+    max-width: 478px;
+    min-width: 478px;
+    margin-bottom: 5px;
+    border: 1px solid grey;
+}
+
+.checkbox input{
+	margin-left: -200px;
+	height: 15px;
+	margin-right: -220px;
+}
+
+.send input{
+	width: 140px;
+	margin: 30px 200px 60px 200px;
+	background-color: #E34162;
+	color: white;
+	font-size: 20px;
+	height: 40px;
+	border: none;
+	border-radius: 2px;
+}
+
+
+.send input:hover{
+	text-decoration: underline;
+}
+
+footer{
+	background-color: #ffe4e1;
+}
+
+footer ul{
+	display: flex;
+	margin-left: 270px;
+}
+
+footer li{
+	padding-left: 40px;
+}
+
+h3{
+	font-size: 22px;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 50px;
+}
+
+footer p{
+	width: 830px;
+	padding: 30px 65px 0px 65px;
+	text-align: center;
+}
+

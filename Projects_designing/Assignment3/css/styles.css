@@ -1,0 +1,224 @@
+body {
+	background-color: white;
+	font-size: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+ 
+.container {
+	margin:0 auto;
+	width:960px;
+}
+
+ul li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+nav , nav a{
+	background-color: #708f8f;
+	color: #f2f2f2;
+
+}
+
+nav img{
+	padding: 8px;
+}
+nav p{
+	padding: 10px 10px;
+	font-size: 25px;
+}
+nav a{
+	padding: 30px 15px;
+	font-size: 30px;
+}
+
+nav div{
+	display: flex;
+}
+
+.shop{
+	margin-left: 470px;
+}
+
+header{
+	color: #f2f2f2;
+	background-image: url(../img/grapes.jpg);
+	width: 960px;
+	height: 600px;
+	margin-top: -50px;
+}
+h1{
+	font-size: 60px;
+	width: 500px;
+	padding-left: 30px;
+	text-align: left;
+	font-family: 'Playfair Display', serif;
+	padding-top: 50px;
+	font-weight: normal;
+}
+header p{
+	font-size: 28px;
+	width: 420px;
+	padding-left: 30px;
+	text-align: left;
+}
+
+.button{
+	background-color: #708f8f;
+	margin-left: 30px;
+	width: 230px;
+	height: 65px;
+	padding-top: 20px;
+	border-radius: 10px;
+	font-size: 35px;
+}
+
+header a{
+		color: #f2f2f2;
+}
+.AboutUs{
+	margin-top: 60px;
+	background-image: url(../img/about-us.jpg);
+	background-size: 450px 520px;
+	background-repeat: no-repeat;
+}
+
+.AboutUs div{
+	padding-left: 480px;
+	width: 470px;
+}
+
+.AboutUs div p{
+	line-height: 1.4;
+	font-size: 17px;
+}
+
+.AboutUs div h1{
+	margin-top: 60px;
+	padding-left: 80px;
+    margin-bottom: 0px;
+}
+
+.AboutUs .offers{
+	font-size: 14px;
+}
+
+main span div:nth-child(1){
+	margin-top: 100px;
+	height: 150px;
+	background-image: url(../img/heading-flowers.jpg);
+	background-repeat: no-repeat;
+	background-size: 960px 150px;
+	display: flex;
+}
+
+.article1 h2{
+	width: 550px;
+	padding: 5px;
+	font-size: 50px;
+	font-weight: normal;
+	text-align: center;
+	background-color: white;
+	margin-left: 210px;
+	margin-top: 37px;
+	font-family: 'Playfair Display', serif;
+}
+
+.article2 .left-col {
+	margin-top: 30px;
+	width: 480px;
+	background-color: #051F1F;
+}
+
+
+.article2 .right-col{
+	background-color: #051F1F;
+	color: #f2f2f2;
+	padding: 30px;
+	margin-top: 30px;
+	margin-bottom: -8px;
+}
+
+.article2 h3, .article3 h3{
+	font-size: 35px;
+	font-family: 'Playfair Display', serif;
+}
+
+
+.article3 .right-col, .article3 .left-col{
+	width: 480px;
+}
+
+.article3 .left-col{
+	background-color: #051F1F;
+	color: #f2f2f2;
+	padding: 0px 40px;
+	margin-bottom: 4px;
+}
+
+.article3, .article2{
+	display: flex;
+}
+
+.ReadMore{
+	margin-top: 45px;
+	font-size: 24px;
+
+}
+
+.line-1 {
+	margin: 100px 80px 0px 80px;
+  	height: 1px;
+  	background: black;
+  	width: 800px;
+}
+
+.footer{
+	padding: 50px 0px 0px 430px;
+}
+
+.logo{
+	font-size: 20px;
+	padding:0px 10px 0px 0px;
+}
+
+.footerList{
+	display: flex;
+	text-align: center;
+	margin-top: 20px;
+}
+
+footer ul{
+	width: 170px;
+	padding-left: 110px;
+	font-size: 19px;
+}
+
+.main{
+	padding-bottom: 20px;
+	font-size: 22px;
+}
+
+footer a{
+	color: black;
+}
+
+footer p{
+	padding: 0px 30px;
+	text-align: center;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.ReadMore:hover{
+	text-decoration: underline;
+}
+
+
+
+

@@ -1,0 +1,201 @@
+body{
+	width: 960px;
+	margin: auto;
+	background-color: #EBE4E4;
+	font-family: 'Cantarell', sans-serif;
+	line-height: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+li{
+	list-style: none;
+}
+
+nav div{
+	display: flex;
+	background-color: #ffe4e1;
+	opacity: 0.8;
+
+}
+
+nav img{
+	margin: 5px 5px 10px 55px;
+}
+
+nav p{
+	padding-left: 30px;
+	padding-top: 13px;
+	font-size: 23px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+nav p:hover{
+	text-decoration: underline;
+}
+
+.home{
+	margin-left: 400px;
+}
+
+
+header{
+	background-image: url("../img/header-banner.jpg");
+	background-size: 960px 800px;
+	background-repeat: no-repeat;
+	padding-bottom: 200px;
+	margin-bottom: 100px;
+}
+
+header .FindUsNow{
+	background-color: #ffe4e1;
+	opacity: 0.8;
+	width: 550px;
+	margin: 188px 205px 0px 200px;
+	border: 1px solid black;
+	height: 308px;
+}
+
+h1{
+	font-size: 55px;
+	text-align: center;
+	color: #E34162;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.FindUsNow p{
+	width: 450px;
+	margin-left: 40px;
+	margin-top: 0px;
+	font-size: 23px;
+	line-height: 30px;
+}
+
+.button a:hover{
+	text-decoration: underline;
+}
+
+.button {
+	height: 40px;
+	margin-left: 180px;
+	margin-top: -10px;
+	padding-top: 20px;
+	padding-left: 30px;
+	width: 190px;
+	font-size: 27px;
+	background-color: #E34162;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.button a{
+	color: white;
+}
+
+.OurStory{
+	background-image: url("../img/handy-pasty.png");
+	background-repeat: no-repeat;
+	background-color: #ffe4e1;
+	background-position: 490px;
+}
+
+.OurStory p,.OurStory h2{
+	width: 400px;
+}
+
+h2{
+	font-size: 45px;
+	padding-top: 50px;
+	text-align: center;
+	color: #E34162;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.OurStory p{
+	padding-left: 55px;
+	font-size: 18px;
+}
+
+.OurStory h2{
+	padding-left: 40px;
+}
+
+.bottom-paragraph{
+	padding-bottom: 70px;
+}
+
+section{
+	margin-bottom: 100px;
+}
+
+.FindUs{
+	background-image: url("../img/flour-power.jpg");
+	background-repeat: no-repeat;
+}
+
+.FindUs p{
+	padding-left: 50px;
+	margin-top: -20px;
+}
+
+.FindUs div{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contact-here{
+	color: #E34162;
+	text-decoration: underline;
+}
+
+.FindUs ul{
+	width: 200px;
+	text-align: center;
+	padding-left: 85px;
+	padding-top: 30px;
+}
+
+.FindUs ul li{
+		padding-bottom: 15px;
+		font-size: 19px;
+		font-weight: lighter;
+}
+
+.day{
+	font-size: 23px;
+}
+
+
+.venue{
+	font-size: 18px;
+}
+
+footer{
+	background-color: #ffe4e1;
+}
+
+footer ul{
+	display: flex;
+	margin-left: 270px;
+}
+
+footer li{
+	padding-left: 40px;
+}
+
+h3{
+	font-size: 22px;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 50px;
+}
+
+footer p{
+	width: 830px;
+	padding: 30px 65px 0px 65px;
+	text-align: center;
+}
