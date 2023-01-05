@@ -1,0 +1,318 @@
+:root {
+    --white: #F2F2F2;
+    --accent: #dca530;
+    --hover: #fcc650;
+    --dark: #181413;
+    --pop: #684551;
+}
+
+/* Universal Styles */
+
+body {
+    background-color: var(--white);
+    font: 1rem/1.5 "Lato", Arial, sans-serif;
+}
+
+/* Utility Classes */
+
+.btn {
+    display: inline-block;
+    background-color: var(--accent);
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    color: var(--dark);
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.btn:hover {
+    background-color: var(--hover);
+    transition: 0.4s all ease-in-out;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.inner-container {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.sr-only {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+/* Typography */
+
+h1 {
+    color: var(--white);
+    font-family: 'Hurricane', cursive;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+}
+
+.tagline{
+    color: var(--white);
+    letter-spacing: 0.2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* Header */
+
+header{
+    background-color: var(--pop);
+    padding: 0.5rem;
+    position: sticky;
+    top: -6.5rem;
+    z-index: 1;
+}
+
+
+nav{
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    color: var(--white);
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+nav a:not(.btn):hover{
+   text-decoration: underline;
+}
+
+nav a.btn{
+    margin-right: 1rem;
+}
+
+.menu{
+    color: var(--white);
+    cursor: pointer;
+}
+
+/* Hero Banner */
+
+main section:first-of-type{
+    color: var(--white);
+    background: url('../img/hero.webp') center/ cover;
+}
+
+main section:first-of-type .inner-container{
+    min-height: calc(100vh - 10rem);
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main section:first-of-type h2{
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
+main section:first-of-type h2 span{
+    display: block;
+    padding-left: 4rem;
+}
+
+main section:first-of-type p{
+    font-size: 1.4rem;
+    line-height: 1.2;
+    max-width: 40ch;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+/* Parallax */
+
+.parallax{
+    background: url('../img/splash-mobile.webp') center / cover no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax .inner-container{
+    min-height: 100vh;
+    padding: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.parallax .inner-container * {
+    width: 60%;
+    padding: 0.5rem 1rem;
+}
+
+.parallax h2{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+/* Horizontal Scroll */
+
+.scroll{
+    padding: 3rem 0;
+}
+
+.scroll > h2{
+    margin: 4rem 0;
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.scrolling-wrapper{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scrollbar-color: var(--accent) #e2e2e2;
+    scrollbar-width: thin; 
+}
+
+.scrolling-wrapper::-webkit-scrollbar{
+    height: 0.5rem;
+}
+
+.scrolling-wrapper::-webkit-scrollbar-track{
+    background-color: #e2e2e2;
+}
+
+.scrolling-wrapper::-webkit-scrollbar-thumb{
+    background-color: var(--accent);
+    border-radius: 0.5rem;
+    border: none;
+}
+
+
+.card{
+    flex: 0 0 24rem;
+    background-color: #fff;
+    box-shadow: 0.2rem 0.2rem 0.2rem rgb(0,0,0,1);
+    margin: 1rem 1rem 2rem 1rem;
+    
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.category{
+    margin-top: 1rem;
+    color: var(--pop);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.description{
+    text-align: left;
+    white-space: normal;
+}
+
+.scroll .btn{
+    margin: 1.5rem 0;
+}
+
+
+
+
+
+
+
+/* Footer */
+footer{
+    background-color: var(--pop);
+    color: var(--white);
+    padding: 3rem 2rem;
+}
+
+footer.inner-container div *{
+    margin-bottom: 1rem;
+}
+
+footer nav{
+    padding: 2rem 0;
+}
+
+footer nav h3{
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+footer > p{
+    width: 100%;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+form input[type="email"]{
+    flex: 1 0 auto;
+}
+
+form input[type="email"],
+form input[type="submit"]{
+    height: 2.25rem;
+    padding: 0 0.5rem;
+    border: none;
+    margin: 0;
+}
+
+form input[type="submit"]{
+    background-color: var(--accent);
+    letter-spacing: 0.1rem;
+    text-transform: lowercase;
+    
+}
+
+form input[type="submit"]:hover{
+    background-color: var(--hover);
+    cursor: pointer;
+    transition: 0.4s all ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 52rem) {
+    .parallax{
+        background: url('../img/splash.webp') center / cover no-repeat;
+        background-attachment: fixed;
+    }
+
+    footer div.inner-container{
+        display: flex;
+        align-items: center;
+    }
+
+    footer .inner-container > div,
+    footer form{
+        width: 48%;
+    }
+}
