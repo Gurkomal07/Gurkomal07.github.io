@@ -1,0 +1,665 @@
+/*
+    COLOUR PALETTE
+
+ dark blue:   #084272;
+ light blue:  #E5F5FA;
+ medium blue: #005FAA;
+ light grey:  #F5F5F5;
+ green:       #6ba23f;
+
+*/
+
+/* UTILITY CLASSES */
+
+/* Index */
+
+a{
+    text-decoration: none;
+}
+
+.nav-links,
+.page-links{
+    display: flex;
+    align-items: center;
+}
+
+.image-windmill{
+    height: 40rem;
+    background: url('../img/banner-wind.webp') center / cover no-repeat;
+}
+
+.page-links a{
+   padding: 0rem 1rem;
+   color: #084272;
+}
+
+.costomer-services{
+    display: flex;
+    background-color: #084272;
+}
+
+
+.costomer-services a{
+    color: white;
+}
+
+.costomer-services li{
+    width: auto;
+    padding: 1rem 0.11rem;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+h2{
+    padding: 1rem;
+    font-size: 2.25rem;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 1.125rem;
+}
+
+.costomer-options{
+    background-color: #E5F5FA;
+}
+
+.costomer-options ul{
+    display: flex;
+    padding: 1rem;
+}
+
+.costomer-options a{
+    color: #084272;
+    background-color: white;
+    border: 1px solid #F5F5F5;
+    padding: 1rem;
+    font-size: .95rem; 
+}
+
+.energy-data{
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.number-data li:nth-child(2n + 1){
+    font-size: 1.875rem;
+    padding: 1rem 0;
+}
+
+.learn-more{
+    background-color: #084272;
+    color: white;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+footer{
+    background-color: #E5F5FA;
+    display: flex;
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+}
+footer ul li a{
+    color: #084272;
+}
+
+nav h2{
+    color:#084272;
+        font-size: 2.25rem;
+        margin-bottom: 1rem;
+        letter-spacing: .1rem;
+}
+
+
+/* Community styles */
+
+.help-quote{
+    font-weight: 600;
+}
+
+.community-help-services{
+    padding: 1rem;
+}
+
+.community-programes a{
+    display: block;
+    width: 25rem;
+    margin: auto;
+}
+
+.community{
+    text-align: center;
+}
+
+.program-links{
+    background-color: #084272;
+    color: white;
+    padding: .7rem .7rem;
+    }
+
+.community-programes img{
+    margin: auto;
+}
+
+.community-programes{
+    margin-bottom: 1rem;
+}
+
+.build-strong-society{
+    height: 50vh;
+    width: 100vw;
+    background: url('../img/building-stronger-sm.webp') left / cover no-repeat;
+    padding: 1.5rem;  
+}
+
+.black{
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: .5rem 2rem;
+    height: 100%;
+    max-width: 40rem;
+    margin: auto;
+}
+
+.black p{
+    margin-top: -1rem;
+}
+   
+.black h2{
+    margin: 0;
+    font-size: 1.875rem;
+    text-align: center;
+}
+
+.black a{
+    color: #084272;
+}
+
+
+
+/* Your home */
+
+.image-home{
+    height: 50vh;
+    width: 100vw;
+    background: url('../img/banner-your-home-sm.webp') center / cover no-repeat;
+}
+
+.warm-home{
+    text-transform: uppercase;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+.additional-help{
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.additional-help-sections{
+    background-color: white;
+    padding: 1.5rem;
+    margin: 2rem;
+    border: 1px solid #F5F5F5;
+}
+
+.additional-help a{
+    color: #084272;   
+}
+
+.programs-home-page a{
+    color: #084272;
+    display: block;
+    width: auto;
+}
+
+.warm-home-page a{
+    color: #005FAA;
+}
+
+.programs-home{
+    width: 20rem;
+}
+
+.programs-home-page{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+
+.programs-home-page div{
+    width: 40vw;
+}
+
+.programs-home-page div:nth-child(n + 3){
+    margin-top: 1rem;
+}
+
+.warm-home-page{
+    padding: 1.5rem;
+}
+
+body{
+    font-family: Calibr, sans-serif;
+}
+
+.programs-home-page a{
+    background-color: #084272;
+    color: white;
+    padding: .6rem 1rem;
+    }
+
+
+
+
+/* UNIVERSAL STYLES & TYPOGRAPHY */
+
+body{
+    font-family: Calibri, sans-serif;
+}
+
+
+/* MOBILE LAYOUT */
+
+.costomer-services a{
+    font-size: .8rem;  
+    }
+
+.costomer-services {
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+   }
+        
+.nav-links{
+    display: block;
+    text-align: center;
+}
+
+.page-links{
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.costomer-options ul{
+    flex-wrap: wrap;
+    padding: 1rem ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.costomer-options li{
+    width: calc(100% / 2 - 1.5rem);
+    font-size: .6rem;
+}
+
+.costomer-options a{
+    text-align: center;
+    display: block;
+}
+
+.costomer-options li:nth-child(-n+4){
+    margin-bottom: 1.2rem;
+}
+
+.learn-more{
+    display: inline-block;
+    margin: 1rem;
+    width: 100%;
+    margin: 1rem auto;
+}
+
+footer{
+    display: block;
+    padding: 1rem;
+}
+
+footer p{
+    margin-left: 1.5rem;
+}
+
+footer ul{
+    justify-content: space-around;
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+.community-page-link ul{
+    flex-wrap: wrap;
+    justify-content: left;
+    text-align: center;
+}
+
+.community-page-link ul li{
+    max-width: 9rem;
+    min-width: 5rem;
+}
+
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (min-width: 45.375rem){
+   
+ /* Meduim View: Index */
+
+    .costomer-services li{
+        max-width: 14rem;  
+        }
+   
+    .nav-links{
+       display: flex;
+       justify-content: space-around;
+   }
+   
+   .nav-links ul{
+       padding: 2rem 0;
+       justify-content: end;
+   }
+
+   .costomer-options li{
+    width: calc(100% / 3 - 1rem); 
+   }
+
+    .costomer-services li:nth-child(3){
+        padding: 1rem 0rem;
+    }
+
+    .costomer-options li:nth-child(n+4){
+        margin-bottom: 0rem;
+    }
+
+
+    .energy-data {
+        display: flex;
+    }
+
+    .energy-stats{
+        border: 1px solid #E5F5FA;
+        width: 40%;
+        margin-right: 2rem;
+        padding: 1.5rem;
+    }
+
+    .number-data-div{
+        border: 1px solid #E5F5FA;
+        background-color: #F5F5F5;
+        width: 60%;
+        padding: 2rem;
+    }
+
+    .learn-more{
+        width: auto;
+        padding: 1rem;
+        display: inline-block;
+        font-size: 70%;
+        margin: 1rem auto;
+    }
+
+    footer{
+        display: flex;
+        justify-content: start;
+    }
+
+    footer p{
+        width: 18.75rem;
+    }
+
+    footer ul{
+        margin-top: 1rem;
+        justify-content: end;
+        width: 100%;
+    }
+
+    footer ul li{
+        padding-left: .8rem;
+    }
+
+
+/* Meduim View: Community */
+
+    .community-page-link ul{
+        flex-wrap: nowrap;
+        justify-content: right;
+        text-align: center;
+    }
+
+    .community-programs-info{
+        display: flex;
+    }
+
+    .community-programes{
+        margin: auto;
+        display: flex;
+        padding: .5rem;
+        flex-direction: column-reverse;
+    }
+
+    .community-programes{
+        width: 20rem;
+    }
+
+    .community-programes a{
+        display: block;
+        max-width: 19rem;
+        margin: auto;
+    }
+
+    .program-links{
+        padding: .7rem .7rem;
+        }
+
+    .black{
+        margin-right: 1rem;
+        
+    }
+
+    .build-strong-society{
+        background: url('../img/building-stronger-md.webp') left / cover no-repeat;
+    }
+
+    .black h2{
+        margin: 1.5rem;
+    }
+
+
+ /* Meduim View: Your home */
+
+    .programs-home-page div{
+        max-width:calc(100% / 3 - 2rem);
+
+    }
+
+    .programs-home-page a{
+        margin: auto;
+        width: auto;
+    }
+
+
+    .programs-home-page{
+        align-items: center;
+    }
+
+
+    .flex-container{
+        display: flex;
+    }
+
+    .container{
+        flex-direction: row;
+        margin: auto;
+    }
+
+    .flex-container p,
+    .flex-container a{
+        padding: 0 1rem;
+    }
+
+    main .warm-home-page:nth-child(3) .flex-container{
+        flex-flow: row-reverse;
+    }
+
+    .additional-help-links{
+        display: flex;
+    }
+
+    .additional-help-sections{
+        width: calc(100% / 3);
+        padding: 1rem;
+    }
+
+    .image-home{
+        background: url('../img/banner-your-home-md.webp') center / cover no-repeat;
+    }
+
+}
+
+
+
+/* Large view */
+
+@media screen and (min-width: 71.875rem){
+
+    /* Large View: Index page */
+   
+    .costomer-services {
+        justify-content: right;
+        }
+
+   .costomer-services li{
+    padding: 1rem;
+    }
+    .costomer-services li:nth-child(4){
+        margin-right: 6rem;
+    }
+
+    .nav-links{
+        justify-content: space-around;
+    }
+
+    .page-links{
+        margin-right: 4rem;
+    }
+
+    .costomer-options li{
+        max-width: calc(100% / 6 - 4rem);
+        margin: 0.5rem;
+    }
+
+    .costomer-options ul{
+        justify-content: center;
+        align-items:flex-start;
+    }
+
+    .energy-data{
+        max-width: 71.875rem;
+        margin: auto;
+    }
+
+    footer ul{
+    justify-content: center;
+    }
+
+    footer p{
+        margin-left: 12rem;
+    }
+
+    .image-home{
+        background: url('../img/banner-your-home-lg.webp') center / cover no-repeat;
+    }
+
+
+/* Large View: Community page */
+
+    .community-help-services{
+        max-width: 68.875rem;
+        margin: auto;
+    }
+
+    .black{
+        margin-right: 7rem;
+    }
+
+    .community-page-link ul{
+        justify-content: center;
+    }
+
+    .community-page-link p{
+        margin-left: 12rem;
+    }
+
+    .build-strong-society{
+        background: url('../img/building-stronger-lg.webp') left / cover no-repeat;
+    }
+
+
+    /* Large View: your-home page */
+
+    .programs-home-page,
+    .warm-home-page{
+        max-width: 71.875rem;
+        margin: 0 auto;    
+    }
+
+    .programs-home-page div{
+        margin: 0 auto;
+        width: calc(100% / 3 - 2rem);
+    }
+}
+
+
+
+/* hover states */
+
+footer ul li a:hover{
+    color:#6ba23f;
+}
+
+
+.learn-more:hover{
+    background-color: #E5F5FA;
+    color: #084272;
+    border: 1px solid #084272;
+}
+
+
+.costomer-options a:hover{
+    background-color: #084272;
+    color: white;
+}
+
+
+.page-links a:hover{
+    color:#6ba23f;
+    text-decoration: underline;
+ }
+
+ .black a:hover,
+ .additional-help a:hover,
+ .warm-home-page a:hover{
+    color:#6ba23f;
+ }
+
+ 
+
+ .programs-home-page a:hover,
+ .program-links:hover{
+    background-color: #005FAA;
+    }
+
+.costomer-services li:hover{
+    background-color: #6ba23f;
+}
+
+
+
+
+
+

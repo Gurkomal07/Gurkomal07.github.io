@@ -1,0 +1,104 @@
+<!-- Navigation -->
+Cultivate 					
+
+Home  
+Trending  
+The Latest  
+Events  
+Read  
+Engage
+
+<!--  Main Content -->
+
+Back to nature - back to life
+
+<!-- Nested Grid -->
+
+Crop Management Club - Empowerment through seed improvement and seed management
+
+Barley to beer in 100 seconds
+
+Fruit trees for northern Alberta
+
+Sugar maples: A how-to guide
+
+Sunflowers for pollinators and deer
+
+<!-- Cards -->
+
+Trending
+
+4 Steps to Harvesting Your Own Delicious Organic Honey	Read More
+
+6 great vegetable gardening tips for the novice gardener		Read More
+
+2 years in a jar: The science and art of pickling vegetables	Read More
+
+<!-- Flex Utility -->
+
+The Latest
+
+TIMBER! A Guide to the Safe Harvesting of Trees
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+Kickstart Spring by Starting a Straw Bale Garden
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+How to Build a Rabbit Hutch For Your Homestead
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+DIY Tomato Cages to Properly Support Your Tomato Plants
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+<!-- Image Carousel -->
+
+Upcoming Events
+
+Selecting the Right Plants
+
+10 Stunning Drought-Tolerant Plants For Low-Maintenance Landscapes.
+
+Choosing Laying Hens
+
+The best egg laying chickens for your homestead.
+
+Buying a Property
+
+How to plan and then search for a property that suits you needs.
+
+
+<!-- Bootstrap Icons -->
+
+Read
+
+Q&As, stories and news
+
+Watch
+
+Exclusive interviews
+
+Learn
+
+Creative tutorials
+
+
+<!-- Contact Form -->
+
+Engage With Us
+
+First Name
+Last Name
+Email
+Your Message
+
+
+<!-- Footer -->
+
+Copyright &copy; 2022
+
+This exercise is for educational purposes only.
