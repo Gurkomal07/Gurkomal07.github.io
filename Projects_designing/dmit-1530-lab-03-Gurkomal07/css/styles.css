@@ -1,0 +1,226 @@
+/*
+COLOUR PALETTE
+
+Pink    #E64F85
+Yellow  #f5cf54
+Green   #9CC05D
+*/
+
+:root {
+    --off-black: #00263e;
+    --light-grey: #e3eaf3;
+}
+
+/* UNIVERSAL STYLES */
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: var(--off-black);
+    background: linear-gradient(rgb(225,105,180), rgb(255,186,0));
+}
+
+/* HELPER CLASSES */
+
+.inner-container {
+    padding: 1rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-page {
+    background: radial-gradient(rgb(20, 8, 184), rgb(75, 194, 202));
+}
+
+.customize-page {
+    background: radial-gradient(rgb(211, 208, 23), rgb(25,140,30));
+}
+
+.sales-page {
+    background: radial-gradient(rgb(125,175,240), rgb(100,16,90));
+}
+
+.featured-page {
+    background: linear-gradient(rgb(5, 15, 15), rgb(167, 164, 15));
+}
+
+.popgrips-page {
+    background: linear-gradient(rgb(225,105,180), rgb(55,250,110));
+}
+
+.accessories-page {
+    background: linear-gradient(rgb(201, 163, 68), rgb(184, 105, 160));
+}
+
+.create-for-you-page {
+    background: linear-gradient(rgb(230, 61, 103), rgb(255,186,0));
+}
+
+.create-for-business-page {
+    background: linear-gradient(rgb(201, 59, 172), rgb(255,186,0));
+}
+
+.see-all-page {
+    background: linear-gradient(rgb(88, 179, 214), rgb(8, 8, 8));
+}
+
+
+/* TYPOGRAPHY */
+
+h1 a {
+    letter-spacing: .25rem;
+    color: var(--off-black);
+    text-decoration: none;
+}
+
+h1::first-letter {
+    color: rgb(225,105,180);
+}
+
+h2 {
+    font-size: 3rem;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+a {
+    color: var(--off-black);
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+    background-color: #fff;
+}
+
+.menu-icon {
+    width: 2.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.first-link img {
+    width: 1rem;
+}
+
+nav {
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+
+.active-nav {
+    max-height: 100vh;
+}
+
+
+.main-menu li {
+    margin: 0 2rem;
+    line-height: 5rem;
+    border-bottom: 1px solid var(--light-grey);
+}
+
+.main-menu li:last-of-type {
+    border-bottom: none;
+}
+
+.main-menu a {
+    padding-left: .625rem;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.main-menu a:active {
+    background-color: var(--light-grey);
+    border-radius: .25rem;
+}
+
+a.first-link{
+    font-size: 1.25rem;
+    display: flex;
+}
+
+a.first-link img:first-of-type {
+    margin-right: 1rem;
+}
+
+a.first-link img:last-of-type {
+    margin-left: 1rem;
+    display: none;
+}
+
+.dropdown-menu a {
+    color: #f89d70;
+}
+
+
+/* LARGER VIEWS */
+
+@media screen and (min-width: 50rem) {
+    .menu-icon {
+        display: none;
+    }
+
+    nav {
+        max-height: 100vh;
+        position: static;
+        overflow: visible;
+    }
+
+    .main-menu, 
+    .wide-flex {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .main-menu li {
+        border-bottom: none;
+        position: relative;
+    }
+
+    a.first-link img:last-of-type {
+        display: unset;
+    }
+
+    .main-menu a:hover {
+        text-decoration: underline;
+    }
+
+    .dropdown-menu {
+        visibility: hidden;
+        position: absolute;
+        background-color: #fff;
+        min-width: 100%;
+        left: 0;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .main-menu li:hover >.dropdown-menu {
+        visibility: visible;
+        
+    }
+
+    .dropdown-menu li a {
+        white-space: nowrap
+    }
+
+}
+
+@media screen and (min-width:85rem){
+    .inner-container {
+        max-width: 85rem;
+        margin: auto;
+    }
+    
+}

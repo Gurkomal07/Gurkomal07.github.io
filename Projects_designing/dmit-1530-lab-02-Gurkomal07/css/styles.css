@@ -1,0 +1,233 @@
+/*
+
+COLOUR PALETTE
+
+orange accent       ff8e2d
+teal                20abad
+darker teal         007c84
+off-white           eeeaeb
+
+GOOGLE FONTS 
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Pacifico', cursive;
+
+*/
+
+/* UNIVERSAL STYLES */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    color: #eeeaeb;
+}
+
+
+
+/* MOBILE VIEW */
+
+header{
+    background-color: #20abad;
+}
+
+ul.main-menu a{
+    text-transform: uppercase;
+    display: block;
+    padding: 1rem;
+}
+
+ul.main-menu > li > a{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+ul.main-menu a:hover,
+ul.main-menu a:active,
+ul.main-menu a:focus,
+ul.main-menu a:focus-within{
+    background-color: #ff8e2d;
+    border-radius: 0.25rem;
+}
+
+ul.main-menu li:last-child {
+    padding-bottom: 2rem;
+}
+
+ul.dropdown{
+    padding: 0 1rem;
+}
+
+svg{
+    display: none;
+}
+
+main{
+    background: url('../img/grapefruit-bg.jpg') left / cover no-repeat;
+}
+
+section{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15% 10%;
+    text-align: center;
+}
+
+section a{
+    background-color: #20abad;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    text-transform: uppercase;
+    color: #eeeaeb;
+}
+
+section a:hover {
+    background-color: #007c84;
+}
+
+
+
+
+
+/* Utilities classes */
+
+.sr-only{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+
+
+/* Typographic styles */
+
+h1{
+    font-family: 'Pacifico', cursive;
+    width: 100%;
+    font-size: 2.25rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1:hover{
+    color: #ff8e2d;
+}
+
+h1 a,
+ul.main-menu a {
+    color: #eeeaeb;
+    text-decoration: none;
+}
+
+h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+}
+
+p{
+    margin: 2rem;
+    font-size: 1.25rem;
+}
+
+
+
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 720px) {
+    .main-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    svg {
+        display: inline-block;
+        width: 1rem;
+        margin-left: 0.75rem;
+    }
+
+    svg path {
+        fill: #eeeaeb;
+    }
+    
+    ul.main-menu li:last-child {
+        padding-bottom: 0;
+    }
+
+    ul.main-menu li {
+        position: relative;
+        white-space: nowrap;
+        flex: 1 0 auto;
+        text-align: center;
+    }
+
+    ul.dropdown {
+        background-color: #007c84;
+        min-width: 100%;
+        padding: 0;
+        border-radius: 0 0 0.25rem 0.25rem;
+        position: absolute;
+        left: 0;
+        visibility: hidden;
+    }
+
+    ul.dropdown li {
+        text-align: left;
+    }
+
+    ul.main-menu li:hover > ul,
+    ul.main-menu li:focus-within > ul,
+    ul.main-menu li:focus > ul {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    ul.dropdown a:hover,
+    ul.dropdown a:focus {
+        background-color: #007c84;
+        text-decoration: underline;
+    }
+
+    main{
+        background: url('../img/grapefruit-bg.jpg') left /cover no-repeat;
+    }
+
+    main section{
+        background-color: rgba(0, 0, 0, 0);
+        min-height: calc(100vh - 10.875rem);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main section p {
+        width: 30ch;
+    }
+
+
+
+}
+
+
+
+/* LARGEST VIEW */
+@media screen and (min-width: 1024px) {
+    nav,
+    main section{
+        max-width: 1024px;
+        margin: auto;
+    }
+
+    main section{
+        align-items: flex-end;
+        justify-content: center;
+        
+    }
+
+    main section a{
+      margin-right: 10rem;
+    }
+
+   
+
+    
+}
