@@ -1144,7 +1144,7 @@ container li.prev svg {
 }
 
 #container ul { 
-    margin-top: 6rem;
+    margin-top: 7rem;
     display: block;
     display: flex;
     flex-wrap: wrap;
@@ -1175,13 +1175,15 @@ container li.prev svg {
     font-size: 16px;
     /* background-color: #d37272; */
     background-color: yellow;
-    padding: 0;
+    margin: 0;
 }
 
 #container li span a {
     width: 8rem;
     display: flex;
     flex-wrap: wrap;
+    margin: 0rem 0;
+
 }
 
 
