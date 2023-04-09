@@ -964,9 +964,11 @@ container li.prev svg {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
-    padding-right: 1.5rem;
+    padding-right: 0rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
@@ -976,21 +978,24 @@ container li.prev svg {
     margin: 1rem 1rem 2rem 1rem;
     padding: 5px;
     text-align: center;
+    justify-content: space-around;
     display: grid;
     grid-template-rows: max-content 200px 1fr;
 }
 
 .main {
-    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
     grid-gap: 24px;
-    padding-right: 1.5rem;
+    padding-right: 0rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .main .card {
     width: 20rem;
     box-shadow: 0.2rem 0.2rem 0.2rem #000039;
     background-color: rgb(240, 238, 235);
-
+    justify-content: space-around;
 }
 
 .cards img {
@@ -1328,8 +1333,15 @@ container li.prev svg {
     margin: 0rem 0rem 0rem 0rem;
     font-size: .8rem;
     box-shadow: 5px 3px 4px 2px rgb(202, 113, 41);
-
 }
 
+
+.cards .card {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
 
 }
