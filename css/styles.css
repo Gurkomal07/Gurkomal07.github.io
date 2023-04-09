@@ -1148,7 +1148,7 @@ container li.prev svg {
     display: block;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 1rem;
+    padding: 0 0rem;
 }
 
 #container li svg { 
