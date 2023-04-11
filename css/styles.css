@@ -22,7 +22,7 @@
 .information {
     height: 100vh;
     width: 35%;
-    background-color: darkblue;
+    background-color: rgb(10, 10, 10);
     color: var(--off-white);
     border-radius: 0 1px 1px 0;
     display: inline-block;
